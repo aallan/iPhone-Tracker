@@ -7,32 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		005A00A9140665BD00EE66E5 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 005A00A8140665BD00EE66E5 /* MessageUI.framework */; };
 		00DC8EF414053038008AF5D7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00DC8EF314053038008AF5D7 /* UIKit.framework */; };
 		00DC8EF614053038008AF5D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00DC8EF514053038008AF5D7 /* Foundation.framework */; };
 		00DC8EF814053038008AF5D7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00DC8EF714053038008AF5D7 /* CoreGraphics.framework */; };
 		00DC8EFE14053038008AF5D7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 00DC8EFC14053038008AF5D7 /* InfoPlist.strings */; };
 		00DC8F0114053038008AF5D7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 00DC8F0014053038008AF5D7 /* main.m */; };
-		00DC8F0414053038008AF5D7 /* iPhoneTrackerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 00DC8F0314053038008AF5D7 /* iPhoneTrackerAppDelegate.m */; };
+		00DC8F0414053038008AF5D7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 00DC8F0314053038008AF5D7 /* AppDelegate.m */; };
 		00DC8F0714053038008AF5D7 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00DC8F0514053038008AF5D7 /* MainWindow.xib */; };
-		00DC8F0A14053038008AF5D7 /* iPhoneTrackerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00DC8F0914053038008AF5D7 /* iPhoneTrackerViewController.m */; };
-		00DC8F0D14053038008AF5D7 /* iPhoneTrackerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00DC8F0B14053038008AF5D7 /* iPhoneTrackerViewController.xib */; };
+		00DC8F0A14053038008AF5D7 /* RootController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00DC8F0914053038008AF5D7 /* RootController.m */; };
+		00DC8F0D14053038008AF5D7 /* RootController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00DC8F0B14053038008AF5D7 /* RootController.xib */; };
+		00DC8F141405304E008AF5D7 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00DC8F131405304E008AF5D7 /* CoreLocation.framework */; };
+		00DC8F1614053053008AF5D7 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00DC8F1514053053008AF5D7 /* MapKit.framework */; };
+		00DC8F2714054152008AF5D7 /* location.sql in Resources */ = {isa = PBXBuildFile; fileRef = 00DC8F2614054152008AF5D7 /* location.sql */; };
+		00DC8F2914054161008AF5D7 /* location.db in Resources */ = {isa = PBXBuildFile; fileRef = 00DC8F2814054161008AF5D7 /* location.db */; };
+		00DC8F2C14054422008AF5D7 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 00DC8F2B14054422008AF5D7 /* libsqlite3.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		005A00A8140665BD00EE66E5 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		00DC8EEF14053038008AF5D7 /* iPhoneTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPhoneTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00DC8EF314053038008AF5D7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		00DC8EF514053038008AF5D7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		00DC8EF714053038008AF5D7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		00DC8EFB14053038008AF5D7 /* iPhoneTracker-Info.plist */ = {isa = PBXFileReference; path = "iPhoneTracker-Info.plist"; sourceTree = "<group>"; };
+		00DC8EFB14053038008AF5D7 /* iPhoneTracker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iPhoneTracker-Info.plist"; sourceTree = "<group>"; };
 		00DC8EFD14053038008AF5D7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		00DC8EFF14053038008AF5D7 /* iPhoneTracker-Prefix.pch */ = {isa = PBXFileReference; path = "iPhoneTracker-Prefix.pch"; sourceTree = "<group>"; };
+		00DC8EFF14053038008AF5D7 /* iPhoneTracker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iPhoneTracker-Prefix.pch"; sourceTree = "<group>"; };
 		00DC8F0014053038008AF5D7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		00DC8F0214053038008AF5D7 /* iPhoneTrackerAppDelegate.h */ = {isa = PBXFileReference; path = iPhoneTrackerAppDelegate.h; sourceTree = "<group>"; };
-		00DC8F0314053038008AF5D7 /* iPhoneTrackerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iPhoneTrackerAppDelegate.m; sourceTree = "<group>"; };
+		00DC8F0214053038008AF5D7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		00DC8F0314053038008AF5D7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		00DC8F0614053038008AF5D7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		00DC8F0814053038008AF5D7 /* iPhoneTrackerViewController.h */ = {isa = PBXFileReference; path = iPhoneTrackerViewController.h; sourceTree = "<group>"; };
-		00DC8F0914053038008AF5D7 /* iPhoneTrackerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iPhoneTrackerViewController.m; sourceTree = "<group>"; };
-		00DC8F0C14053038008AF5D7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/iPhoneTrackerViewController.xib; sourceTree = "<group>"; };
+		00DC8F0814053038008AF5D7 /* RootController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootController.h; sourceTree = "<group>"; };
+		00DC8F0914053038008AF5D7 /* RootController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootController.m; sourceTree = "<group>"; };
+		00DC8F0C14053038008AF5D7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootController.xib; sourceTree = "<group>"; };
+		00DC8F131405304E008AF5D7 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		00DC8F1514053053008AF5D7 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		00DC8F2614054152008AF5D7 /* location.sql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = location.sql; sourceTree = "<group>"; };
+		00DC8F2814054161008AF5D7 /* location.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = location.db; sourceTree = "<group>"; };
+		00DC8F2B14054422008AF5D7 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +52,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				005A00A9140665BD00EE66E5 /* MessageUI.framework in Frameworks */,
+				00DC8F2C14054422008AF5D7 /* libsqlite3.dylib in Frameworks */,
+				00DC8F1614053053008AF5D7 /* MapKit.framework in Frameworks */,
+				00DC8F141405304E008AF5D7 /* CoreLocation.framework in Frameworks */,
 				00DC8EF414053038008AF5D7 /* UIKit.framework in Frameworks */,
 				00DC8EF614053038008AF5D7 /* Foundation.framework in Frameworks */,
 				00DC8EF814053038008AF5D7 /* CoreGraphics.framework in Frameworks */,
@@ -52,7 +68,7 @@
 		00DC8EE414053038008AF5D7 = {
 			isa = PBXGroup;
 			children = (
-				00DC8EF914053038008AF5D7 /* iPhoneTracker */,
+				00DC8EF914053038008AF5D7 /* Classes */,
 				00DC8EF214053038008AF5D7 /* Frameworks */,
 				00DC8EF014053038008AF5D7 /* Products */,
 			);
@@ -69,36 +85,59 @@
 		00DC8EF214053038008AF5D7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				005A00A8140665BD00EE66E5 /* MessageUI.framework */,
+				00DC8F1514053053008AF5D7 /* MapKit.framework */,
+				00DC8F131405304E008AF5D7 /* CoreLocation.framework */,
 				00DC8EF314053038008AF5D7 /* UIKit.framework */,
 				00DC8EF514053038008AF5D7 /* Foundation.framework */,
 				00DC8EF714053038008AF5D7 /* CoreGraphics.framework */,
+				00DC8F2B14054422008AF5D7 /* libsqlite3.dylib */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		00DC8EF914053038008AF5D7 /* iPhoneTracker */ = {
+		00DC8EF914053038008AF5D7 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				00DC8F0214053038008AF5D7 /* iPhoneTrackerAppDelegate.h */,
-				00DC8F0314053038008AF5D7 /* iPhoneTrackerAppDelegate.m */,
+				00DC8F0214053038008AF5D7 /* AppDelegate.h */,
+				00DC8F0314053038008AF5D7 /* AppDelegate.m */,
+				00DC8F0814053038008AF5D7 /* RootController.h */,
+				00DC8F0914053038008AF5D7 /* RootController.m */,
 				00DC8F0514053038008AF5D7 /* MainWindow.xib */,
-				00DC8F0814053038008AF5D7 /* iPhoneTrackerViewController.h */,
-				00DC8F0914053038008AF5D7 /* iPhoneTrackerViewController.m */,
-				00DC8F0B14053038008AF5D7 /* iPhoneTrackerViewController.xib */,
+				00DC8F0B14053038008AF5D7 /* RootController.xib */,
+				00DC8F1F14053D5A008AF5D7 /* Third Party */,
 				00DC8EFA14053038008AF5D7 /* Supporting Files */,
 			);
+			name = Classes;
 			path = iPhoneTracker;
 			sourceTree = "<group>";
 		};
 		00DC8EFA14053038008AF5D7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				00DC8F2A14054166008AF5D7 /* Database */,
 				00DC8EFB14053038008AF5D7 /* iPhoneTracker-Info.plist */,
 				00DC8EFC14053038008AF5D7 /* InfoPlist.strings */,
 				00DC8EFF14053038008AF5D7 /* iPhoneTracker-Prefix.pch */,
 				00DC8F0014053038008AF5D7 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		00DC8F1F14053D5A008AF5D7 /* Third Party */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Third Party";
+			sourceTree = "<group>";
+		};
+		00DC8F2A14054166008AF5D7 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				00DC8F2614054152008AF5D7 /* location.sql */,
+				00DC8F2814054161008AF5D7 /* location.db */,
+			);
+			name = Database;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,7 +192,9 @@
 			files = (
 				00DC8EFE14053038008AF5D7 /* InfoPlist.strings in Resources */,
 				00DC8F0714053038008AF5D7 /* MainWindow.xib in Resources */,
-				00DC8F0D14053038008AF5D7 /* iPhoneTrackerViewController.xib in Resources */,
+				00DC8F0D14053038008AF5D7 /* RootController.xib in Resources */,
+				00DC8F2714054152008AF5D7 /* location.sql in Resources */,
+				00DC8F2914054161008AF5D7 /* location.db in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,8 +206,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				00DC8F0114053038008AF5D7 /* main.m in Sources */,
-				00DC8F0414053038008AF5D7 /* iPhoneTrackerAppDelegate.m in Sources */,
-				00DC8F0A14053038008AF5D7 /* iPhoneTrackerViewController.m in Sources */,
+				00DC8F0414053038008AF5D7 /* AppDelegate.m in Sources */,
+				00DC8F0A14053038008AF5D7 /* RootController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,12 +230,12 @@
 			name = MainWindow.xib;
 			sourceTree = "<group>";
 		};
-		00DC8F0B14053038008AF5D7 /* iPhoneTrackerViewController.xib */ = {
+		00DC8F0B14053038008AF5D7 /* RootController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				00DC8F0C14053038008AF5D7 /* en */,
 			);
-			name = iPhoneTrackerViewController.xib;
+			name = RootController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -241,6 +282,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iPhoneTracker/iPhoneTracker-Prefix.pch";
 				INFOPLIST_FILE = "iPhoneTracker/iPhoneTracker-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -254,6 +296,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iPhoneTracker/iPhoneTracker-Prefix.pch";
 				INFOPLIST_FILE = "iPhoneTracker/iPhoneTracker-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
@@ -279,6 +322,7 @@
 				00DC8F1214053038008AF5D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

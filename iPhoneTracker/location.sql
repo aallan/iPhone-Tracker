@@ -1,0 +1,2 @@
+DROP TABLE location;
+CREATE TABLE location (id INTEGER PRIMARY KEY AUTOINCREMENT, timestamp TEXT, latitude REAL, longitude REAL, altitude REAL, horizontalAccuracy REAL, verticalAccuracy REAL, speed REAL, course REAL);
