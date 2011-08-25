@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		003265D31406AF7500DE7FE7 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 003265D21406AF7500DE7FE7 /* Icon@2x.png */; };
+		003265D61406AF7C00DE7FE7 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 003265D51406AF7C00DE7FE7 /* Icon.png */; };
+		003265D81406B0FD00DE7FE7 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 003265D71406B0FD00DE7FE7 /* Default@2x.png */; };
+		003265DA1406B10500DE7FE7 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 003265D91406B10500DE7FE7 /* Default.png */; };
 		005A00A9140665BD00EE66E5 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 005A00A8140665BD00EE66E5 /* MessageUI.framework */; };
 		00DC8EF414053038008AF5D7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00DC8EF314053038008AF5D7 /* UIKit.framework */; };
 		00DC8EF614053038008AF5D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00DC8EF514053038008AF5D7 /* Foundation.framework */; };
@@ -25,6 +29,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		003265D21406AF7500DE7FE7 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		003265D51406AF7C00DE7FE7 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		003265D71406B0FD00DE7FE7 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		003265D91406B10500DE7FE7 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		005A00A8140665BD00EE66E5 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		00DC8EEF14053038008AF5D7 /* iPhoneTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPhoneTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00DC8EF314053038008AF5D7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -68,6 +76,10 @@
 		00DC8EE414053038008AF5D7 = {
 			isa = PBXGroup;
 			children = (
+				003265D91406B10500DE7FE7 /* Default.png */,
+				003265D71406B0FD00DE7FE7 /* Default@2x.png */,
+				003265D51406AF7C00DE7FE7 /* Icon.png */,
+				003265D21406AF7500DE7FE7 /* Icon@2x.png */,
 				00DC8EF914053038008AF5D7 /* Classes */,
 				00DC8EF214053038008AF5D7 /* Frameworks */,
 				00DC8EF014053038008AF5D7 /* Products */,
@@ -195,6 +207,10 @@
 				00DC8F0D14053038008AF5D7 /* RootController.xib in Resources */,
 				00DC8F2714054152008AF5D7 /* location.sql in Resources */,
 				00DC8F2914054161008AF5D7 /* location.db in Resources */,
+				003265D31406AF7500DE7FE7 /* Icon@2x.png in Resources */,
+				003265D61406AF7C00DE7FE7 /* Icon.png in Resources */,
+				003265D81406B0FD00DE7FE7 /* Default@2x.png in Resources */,
+				003265DA1406B10500DE7FE7 /* Default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
