@@ -29,10 +29,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		003265D21406AF7500DE7FE7 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
-		003265D51406AF7C00DE7FE7 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
-		003265D71406B0FD00DE7FE7 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		003265D91406B10500DE7FE7 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		003265D21406AF7500DE7FE7 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "../Icon@2x.png"; sourceTree = "<group>"; };
+		003265D51406AF7C00DE7FE7 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = ../Icon.png; sourceTree = "<group>"; };
+		003265D71406B0FD00DE7FE7 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../Default@2x.png"; sourceTree = "<group>"; };
+		003265D91406B10500DE7FE7 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../Default.png; sourceTree = "<group>"; };
 		005A00A8140665BD00EE66E5 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		00DC8EEF14053038008AF5D7 /* iPhoneTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPhoneTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00DC8EF314053038008AF5D7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -76,10 +76,6 @@
 		00DC8EE414053038008AF5D7 = {
 			isa = PBXGroup;
 			children = (
-				003265D91406B10500DE7FE7 /* Default.png */,
-				003265D71406B0FD00DE7FE7 /* Default@2x.png */,
-				003265D51406AF7C00DE7FE7 /* Icon.png */,
-				003265D21406AF7500DE7FE7 /* Icon@2x.png */,
 				00DC8EF914053038008AF5D7 /* Classes */,
 				00DC8EF214053038008AF5D7 /* Frameworks */,
 				00DC8EF014053038008AF5D7 /* Products */,
@@ -128,6 +124,10 @@
 			isa = PBXGroup;
 			children = (
 				00DC8F2A14054166008AF5D7 /* Database */,
+				003265D91406B10500DE7FE7 /* Default.png */,
+				003265D71406B0FD00DE7FE7 /* Default@2x.png */,
+				003265D51406AF7C00DE7FE7 /* Icon.png */,
+				003265D21406AF7500DE7FE7 /* Icon@2x.png */,
 				00DC8EFB14053038008AF5D7 /* iPhoneTracker-Info.plist */,
 				00DC8EFC14053038008AF5D7 /* InfoPlist.strings */,
 				00DC8EFF14053038008AF5D7 /* iPhoneTracker-Prefix.pch */,
