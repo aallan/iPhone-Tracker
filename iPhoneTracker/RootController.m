@@ -83,6 +83,16 @@
     }
 }
 
+- (IBAction)about:(id)sender {
+    
+    
+    NSString *message = [NSString stringWithFormat:@"Source Code available at https://github.com/aallan/iPhone-Tracker\n© Babilim Light Industries\nEmail: alasdair@babilim.co.uk"]; 
+	UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Location Tracker" message:message delegate:self cancelButtonTitle:nil otherButtonTitles:@"OK", nil];
+    [alert show];
+	[alert autorelease];
+
+}
+
 #pragma mark - MKMapKit Delegate Methods
 
 - (MKOverlayView *)mapView:(MKMapView *)mapView viewForOverlay:(id <MKOverlay>)overlay {

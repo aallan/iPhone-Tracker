@@ -20,5 +20,6 @@
 
 - (IBAction)exportData:(id)sender;
 - (IBAction)refreshData:(id)sender;
+- (IBAction)about:(id)sender;
 
 @end
