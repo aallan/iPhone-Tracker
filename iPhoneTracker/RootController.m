@@ -101,6 +101,22 @@
     MKCircleView *circleView = [[[MKCircleView alloc] initWithCircle:overlay] autorelease];
     
     if ([circle.title isEqualToString:@"location"]) {
+        
+        /*
+        if ( circle.radius <= 100 ) {
+            circleView.fillColor = [UIColor blueColor];
+
+        } else if ( circle.radius > 100 && circle.radius <= 4000 ) {
+            circleView.fillColor = [UIColor redColor];
+            
+        } else if ( circle.radius > 4000 && circle.radius <= 7000 ) {
+            circleView.fillColor = [UIColor orangeColor];
+            
+        } else {
+            circleView.fillColor = [UIColor yellowColor];
+
+        }
+        */
         circleView.fillColor = [UIColor redColor];
         circleView.alpha = 0.25;
     }
